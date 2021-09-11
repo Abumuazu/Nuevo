@@ -18,7 +18,7 @@ const SearchBar = ({setSearchTerm}) => {
         }, 500)
      
         return () => clearTimeout(timer)
-    }, [])
+    }, [setSearchTerm, state ])
     return (
 <Wrapper>
     <Content>

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.button`
   display: block;
-  background: var(--darkGrey);
+  background: var(--pitch);
   width: 25%;
   min-width: 200px;
   height: 60px;
@@ -18,5 +18,6 @@ export const Wrapper = styled.button`
 
   :hover {
     opacity: 0.8;
+    box-shadow: 0 6px 20px 0 rgb(0 0 0 / 18%);
   }
 `;
