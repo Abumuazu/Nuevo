@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react"
-
+//Routing 
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 //config 
 import { POSTER_SIZE, BACKDROP_SIZE, IMAGE_BASE_URL, } from "../config"
 //component 

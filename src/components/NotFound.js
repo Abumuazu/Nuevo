@@ -1,6 +1,8 @@
 import React from 'react'
 
-const Movie = () =>  <div>Movie</div>
+const NotFound = () => (
+    <div>NotFound</div>
+)
 
 
-export default Movie;
+export default NotFound;
