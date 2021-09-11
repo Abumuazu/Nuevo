@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   display: flex;
   align-items: center;
   height: 100px;
-  background: var(--darkGrey);
+  background: var(--white);
   padding: 0 20px;
 `;
 
@@ -13,16 +13,18 @@ export const Content = styled.div`
   max-width: var(--maxWidth);
   width: 100%;
   height: 55px;
-  background: var(--medGrey);
+  background: var(--white);
   margin: 0 auto;
   border-radius: 40px;
-  color: var(--white);
+  color: var(--medGrey);
+    box-shadow: 0 6px 20px 0 rgb(0 0 0 / 10%);
 
   img {
     position: absolute;
     left: 15px;
     top: 14px;
     width: 30px;
+
   }
 
   input {
@@ -35,7 +37,7 @@ export const Content = styled.div`
     width: 95%;
     background: transparent;
     height: 40px;
-    color: var(--white);
+    color: var(--medGrey);
 
     :focus {
       outline: none;
