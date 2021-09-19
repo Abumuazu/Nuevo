@@ -6,14 +6,14 @@ import Button from './Button';
 // Styles
 import { Wrapper } from './Login.styles';
 // Context
-import { Context } from '../context';
+// import { Context } from '../context';
 
 const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState(false);
 
-  const [_user, setUser] = useContext(Context);
+  // const [_user, setUser] = useContext(Context);
   const navigate = useNavigate();
 
   const handleSubmit = async () => {
